@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="css/normalize-7.0.css">
+    <!-- easyui -->
+    <link rel="stylesheet" type="text/css" href="js/easyui/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="js/easyui/themes/icon.css">
+    <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easyui.min.js"></script>
+
+    <link href="css/fonts/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/zh-watch.css">
+</head>
+<body>
+
+    <div class="zh-header">
+        <span>
+            遥控发令序列状态
+            <span class="green"><i class="fa fa-fw fa-circle"></i></span>
+        </span>
+        <span>预备发令序列：无预备序列</span>
+        <div class="zh-search">
+            <span class="zh-search-icon"><i class="fa fa-fw fa-search"></i></span>
+            <span>在此输入指令代号</span>
+        </div>
+    </div>
+
+
+    <div class="zh-table clearfix">
+        <div class="zh-table-fl">
+
+            <div class="zh-table-fl-header">
+                <i class="fa fa-fw fa-calendar-o"></i>
+                <span>遥控序列监视</span>
+            </div>
+
+            <div class="zh-table-fl-table1">
+                <table class="gridtable">
+                    <tr>
+                        <th>指令代号</th><th>发令站</th><th>发令时间</th><th>注入数据文件</th>
+                    </tr>
+                    <tr>
+                        <td>Text 1A</td><td>Text 1B</td><td>Text 1C</td><td>Text 1C</td>
+                    </tr>
+                    <tr>
+                        <td>Text 2A</td><td>Text 2B</td><td>Text 2C</td><td>Text 1C</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="zh-table-fl-header">
+                <i class="fa fa-fw fa-pencil" aria-hidden="true"></i>
+                <span>手动注入</span>
+            </div>
+
+            <div class="zh-table-fl-table2">
+                <table class="gridtable">
+                    <tr>
+                        <th>文件名</th><th>帧序号</th><th>总帧数</th>
+                    </tr>
+                    <tr>
+                        <td>Text 1A</td><td>Text 1B</td><td>Text 1C</td>
+                    </tr>
+                </table>
+                <table class="gridtable">
+                    <tr>
+                        <th>待发指令</th><th>待发站址</th>
+                    </tr>
+                    <tr>
+                        <td>Text 1A</td><td>Text 1B</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+        <div class="zh-table-fr">
+
+            <div class="zh-table-fr-header clearfix">
+                <div class="fl">
+                    <i class="fa fa-fw fa-clock-o"></i>
+                    <span>遥控实时监视</span>
+                </div>
+                <div class="fr">
+                    <span class="zh-begin">开始</span>
+                    <span class="zh-all">查看指令完整信息</span>
+                </div>
+            </div>
+
+
+            <div class="zh-table-fr-table">
+                <table class="gridtable">
+                    <tr>
+                        <th>序号</th><th>指令代号</th><th>指令链代号</th><th>发令条件</th><th>发送时间</th><th>到达时间</th><th>执行时间</th>
+                    </tr>
+                    <tr>
+                        <td>Text 1A</td><td>Text 1B</td><td>Text 1C</td><td>Text 1A</td><td>Text 1B</td><td>Text 1C</td><td>Text 1C</td>
+                    </tr>
+                    <tr>
+                        <td>Text 2A</td><td>Text 2B</td><td>Text 2C</td><td>Text 1A</td><td>Text 1B</td><td>Text 1C</td><td>Text 1C</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
