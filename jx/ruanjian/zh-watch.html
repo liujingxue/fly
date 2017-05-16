@@ -8,9 +8,6 @@
     <!-- easyui -->
     <link rel="stylesheet" type="text/css" href="js/easyui/themes/default/easyui.css">
     <link rel="stylesheet" type="text/css" href="js/easyui/themes/icon.css">
-    <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
-    <script type="text/javascript" src="js/jquery.easyui.min.js"></script>
-
     <link href="css/fonts/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/zh-watch.css">
 </head>
@@ -38,15 +35,9 @@
             </div>
 
             <div class="zh-table-fl-table1">
-                <table class="gridtable">
+                <table class="gridtable" id="ykxljs">
                     <tr>
                         <th>指令代号</th><th>发令站</th><th>发令时间</th><th>注入数据文件</th>
-                    </tr>
-                    <tr>
-                        <td>Text 1A</td><td>Text 1B</td><td>Text 1C</td><td>Text 1C</td>
-                    </tr>
-                    <tr>
-                        <td>Text 2A</td><td>Text 2B</td><td>Text 2C</td><td>Text 1C</td>
                     </tr>
                 </table>
             </div>
@@ -91,21 +82,21 @@
 
 
             <div class="zh-table-fr-table">
-                <table class="gridtable">
+                <table class="gridtable" id="ykssjs">
                     <tr>
                         <th>序号</th><th>指令代号</th><th>指令链代号</th><th>发令条件</th><th>发送时间</th><th>到达时间</th><th>执行时间</th>
-                    </tr>
-                    <tr>
-                        <td>Text 1A</td><td>Text 1B</td><td>Text 1C</td><td>Text 1A</td><td>Text 1B</td><td>Text 1C</td><td>Text 1C</td>
-                    </tr>
-                    <tr>
-                        <td>Text 2A</td><td>Text 2B</td><td>Text 2C</td><td>Text 1A</td><td>Text 1B</td><td>Text 1C</td><td>Text 1C</td>
                     </tr>
                 </table>
             </div>
 
         </div>
     </div>
-
+<script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easyui.min.js"></script>
+    
+<script src="https://cdn.bootcss.com/moment.js/2.18.1/moment.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.18.1/locale/zh-cn.js"></script>
+    <script src="../../xg/js/data.js"></script>
+    <script src="js/deal.js"></script>
 </body>
 </html>

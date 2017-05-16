@@ -7,9 +7,6 @@
     <!-- easyui -->
     <link rel="stylesheet" type="text/css" href="js/easyui/themes/default/easyui.css">
     <link rel="stylesheet" type="text/css" href="js/easyui/themes/icon.css">
-    <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
-    <script type="text/javascript" src="js/jquery.easyui.min.js"></script>
-
     <link href="css/fonts/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
 
@@ -80,12 +77,12 @@
     <div class="timeNav clearfix">
         <ul>
             <li><a href="javascript:void(0);">时间</a></li>
-            <li><a href="javascript:void(0);">任务：</a></li>
-            <li><a href="javascript:void(0);">飞行时间：</a></li>
-            <li><a href="javascript:void(0);">GNC（工程）：</a></li>
-            <li><a href="javascript:void(0);">GNC（数管）：</a></li>
-            <li><a href="javascript:void(0);">数管（工程）：</a></li>
-            <li><a href="javascript:void(0);">数管（数管）：</a></li>
+            <li><a href="javascript:void(0);">任务：</a><span style="color:#fff;" id="task_time"></span></li>
+            <li><a href="javascript:void(0);">飞行时间：000:00:00.00</a></li>
+            <li><a href="javascript:void(0);">GNC（工程）：0:00:00:000</a></li>
+            <li><a href="javascript:void(0);">GNC（数管）：0:00:00:000</a></li>
+            <li><a href="javascript:void(0);">数管（工程）：0:00:00:000</a></li>
+            <li><a href="javascript:void(0);">数管（数管）：3:15:40:29:116</a></li>
         </ul>
     </div>
 
@@ -143,9 +140,8 @@
     </div>
 
 
-
-
-
+    <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easyui.min.js"></script>
     <script>
 
 
@@ -170,10 +166,7 @@
                 });
             }
         }
-
-
-
-
     </script>
+    
 </body>
 </html>
