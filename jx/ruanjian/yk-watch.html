@@ -24,17 +24,26 @@
 
     <div class="yk-table">
 
-        <table class="gridtable">
+        <table class="easyui-datagrid" title="" style="width:820px;height:580px;"
+               data-options="singleSelect:true,collapsible:true,url:'datagrid_data1.json',method:'get'">
+            <thead>
             <tr>
-                <th>序号</th><th>指令代号</th><th>指令链代号</th><th>发令条件</th><th>发送时间</th><th>到达时间</th><th>执行时间</th><th>指令描述</th><th>目的站址</th><th>指令来源</th><th>发令模式</th><th>加密标志</th>
+                <th data-options="field:'itemid',width:60" width="60">序号</th>
+                <th data-options="field:'productid',width:70" width="70" align="left">指令代号</th>
+                <th data-options="field:'productid',width:70" width="70" align="left">指令链代号</th>
+                <th data-options="field:'productid',width:60" width="60">发令条件</th>
+                <th data-options="field:'productid',width:60" width="60">发送时间</th>
+                <th data-options="field:'productid',width:60" width="60">到达时间</th>
+                <th data-options="field:'productid',width:60" width="60">执行时间</th>
+                <th data-options="field:'productid',width:60" width="60">指令描述</th>
+                <th data-options="field:'productid',width:60" width="60">目的站址</th>
+                <th data-options="field:'productid',width:60" width="60">指令来源</th>
+                <th data-options="field:'productid',width:60" width="60">发令模式</th>
+                <th data-options="field:'productid',width:60" width="60">加密标志</th>
             </tr>
-            <tr>
-                <td>Text 1A</td><td>Text 1B</td><td>Text 1C</td><td>Text 1A</td><td>Text 1B</td><td>Text 1C</td><td>Text 1C</td><td>Text 1C</td><td>Text 1A</td><td>Text 1B</td><td>Text 1C</td><td>Text 1C</td>
-            </tr>
-            <tr>
-                <td>Text 2A</td><td>Text 2B</td><td>Text 2C</td><td>Text 1A</td><td>Text 1B</td><td>Text 1C</td><td>Text 1C</td><td>Text 1C</td><td>Text 1A</td><td>Text 1B</td><td>Text 1C</td><td>Text 1C</td>
-            </tr>
+            </thead>
         </table>
+
     </div>
     
     <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>

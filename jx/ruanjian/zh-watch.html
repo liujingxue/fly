@@ -35,11 +35,20 @@
             </div>
 
             <div class="zh-table-fl-table1">
-                <table class="gridtable" id="ykxljs">
+
+                <table class="easyui-datagrid" title="" style="width:300px;height:300px"
+                       data-options="singleSelect:true,collapsible:true,url:'datagrid_data1.json',method:'get'">
+                    <thead>
                     <tr>
-                        <th>指令代号</th><th>发令站</th><th>发令时间</th><th>注入数据文件</th>
+                        <th data-options="field:'itemid',width:80">指令代号</th>
+                        <th data-options="field:'productid',width:80">发令站</th>
+                        <th data-options="field:'listprice',width:80,align:'right'">发令时间</th>
+                        <th data-options="field:'unitcost',width:100,align:'right'">注入数据文件</th>
                     </tr>
+                    </thead>
                 </table>
+
+
             </div>
 
             <div class="zh-table-fl-header">
@@ -48,22 +57,32 @@
             </div>
 
             <div class="zh-table-fl-table2">
-                <table class="gridtable">
+
+                <table class="easyui-datagrid" title="" style="width:300px;height:70px"
+                       data-options="singleSelect:true,collapsible:true,url:'datagrid_data1.json',method:'get'">
+                    <thead>
                     <tr>
-                        <th>文件名</th><th>帧序号</th><th>总帧数</th>
+                        <th data-options="field:'itemid',width:80" width="80" align="center">文件名</th>
+                        <th data-options="field:'productid',width:80" width="80" align="center">帧序号</th>
+                        <th data-options="field:'listprice',width:80,align:'right'" width="80" align="center">总帧数</th>
                     </tr>
-                    <tr>
-                        <td>Text 1A</td><td>Text 1B</td><td>Text 1C</td>
-                    </tr>
+                    </thead>
                 </table>
-                <table class="gridtable">
+
+                <div style="height:5px;"></div>
+
+                <table class="easyui-datagrid" title="" style="width:300px;height:70px;"
+                       data-options="singleSelect:true,collapsible:true,url:'datagrid_data1.json',method:'get'">
+                    <thead>
                     <tr>
-                        <th>待发指令</th><th>待发站址</th>
+                        <th data-options="field:'itemid',width:120,align:'center'" width="120" align="center">待发指令</th>
+                        <th data-options="field:'productid',width:120,align:'center'" width="120" align="center">待发站址</th>
                     </tr>
-                    <tr>
-                        <td>Text 1A</td><td>Text 1B</td>
-                    </tr>
+                    </thead>
                 </table>
+
+
+
             </div>
 
         </div>
@@ -82,11 +101,22 @@
 
 
             <div class="zh-table-fr-table">
-                <table class="gridtable" id="ykssjs">
+
+                <table class="easyui-datagrid" title="" style="width:500px;height:500px;"
+                       data-options="singleSelect:true,collapsible:true,url:'datagrid_data1.json',method:'get'">
+                    <thead>
                     <tr>
-                        <th>序号</th><th>指令代号</th><th>指令链代号</th><th>发令条件</th><th>发送时间</th><th>到达时间</th><th>执行时间</th>
+                        <th data-options="field:'itemid',width:60" width="60">序号</th>
+                        <th data-options="field:'productid',width:70" width="70" align="left">指令代号</th>
+                        <th data-options="field:'productid',width:70" width="70" align="left">指令链代号</th>
+                        <th data-options="field:'productid',width:60" width="60">发令条件</th>
+                        <th data-options="field:'productid',width:60" width="60">发送时间</th>
+                        <th data-options="field:'productid',width:60" width="60">到达时间</th>
+                        <th data-options="field:'productid',width:60" width="60">执行时间</th>
                     </tr>
+                    </thead>
                 </table>
+
             </div>
 
         </div>
